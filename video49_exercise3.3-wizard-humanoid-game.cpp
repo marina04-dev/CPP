@@ -74,6 +74,7 @@ int main() {
         cout<<endl<<"Humanoid (health): "<<h.get_health();
         
         // Add Round
+        gandalf.wait();
         r++;
     }
     return 0;
