@@ -21,6 +21,7 @@ class complex {
         double imag;
 };
 
+ostream &operator<<(ostream &left, const complex &right);
 complex operator+(int left, complex &right);
 
 int main() {
