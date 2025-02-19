@@ -50,21 +50,25 @@ Person::Person(string in_name, double in_salary) {
 
 ostream &operator<<(ostream &left, Person &right) {
     left<<"Name: "<<right.name<<endl<<"Salary: "<<right.salary<<endl<<endl;
+    return left;
 }
 
-Waiter::Waiter() {}
+Waiter::Waiter() {
+    served_cust = 0;
+}
 
 Waiter::Waiter(string in_name, double in_salary): Person(in_name, in_salary) {
     served_cust = 0;
 }
 
-void Waiter::serve(int in_served_cust, Barista b) {
+void Waiter::serve(int customers, Barista &b) {
     b.prepare();
     customers+=customers;
 }
 
 ostream &operator<<(ostream &left, Waiter &right) {
     left<<"Name: "<<right.name<<endl<<"Salary: "<<right.salary<<"Customers Served: "<<right.served_cust<<endl<<endl;
+    return left;
 }
 
 
@@ -78,10 +82,12 @@ void Barista::prepare() {
 
 ostream &operator<<(ostream &left, Barista &right) {
     left<<"Name: "<<right.name<<endl<<"Salary: "<<right.salary<<endl<<endl;
+    return left;
 }
 
 Owner::Owner(string in_name, double in_salary): Person(in_name, in_salary) {}
 
 ostream &operator<<(ostream &left, Owner &right) {
     left<<"Name: "<<right.name<<endl<<"Salary: "<<right.salary<<endl<<endl;
+    return left;
 }
