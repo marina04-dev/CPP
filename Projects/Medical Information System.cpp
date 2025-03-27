@@ -43,7 +43,7 @@ int main() {
       departmentMenu(departments[choice - 1]);
     }
   } while (choice != 5);
-  cout<<"\nThank you!\n";
+  cout<<"\nThanks For Using Our Medical Information System!\n";
   return 0;
 }
 
@@ -152,7 +152,7 @@ void departmentMenu(LinkedQueue& q) {
     do {
       cout<<"\n--- "<<q.getDepartmentName()<<" ---\n";
       cout<<"1. Add Normal Patient\n2. Add Critical Patient\n3. Serve Patient\n4. List Patients\n5. Exit\nEnter choice: ";
-      cin >> choice;
+      cin>>choice;
       switch (choice) {
         case 1: 
           q.insertAtEnd(); 
