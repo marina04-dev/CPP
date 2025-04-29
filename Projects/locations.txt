@@ -1,0 +1,3 @@
+Forest;A dark, dense forest full of unknown dangers.
+Castle;An ancient castle standing proudly on the hill.
+Village;A small peaceful village with friendly people.
