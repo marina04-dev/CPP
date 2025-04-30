@@ -1,0 +1,8 @@
+C++ Basics|Learn the basics of C++ including variables and loops|Programming|2024-01-10
+OOP in C++|Object-oriented programming with classes and objects|Programming|2024-02-15
+History of AI|A brief history of artificial intelligence|Technology|2023-12-01
+Quantum Computing|Introduction to quantum computers and qubits|Science|2024-03-22
+Health Benefits of Tea|Tea and its positive effects on the body|Health|2024-01-25
+C++ Advanced|Memory management and pointers in C++|Programming|2024-04-12
+AI Ethics|Exploring ethical issues in AI development|Technology|2024-02-28
+Python vs C++|Comparing Python and C++ for data science|Programming|2024-04-01
